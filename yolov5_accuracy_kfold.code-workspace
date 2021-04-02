@@ -6,7 +6,6 @@
         }
     ],
     "settings": {
-        "python.pythonPath": "/bin/python3",
         "python.autoComplete.extraPaths": [
             "/opt/ros/noetic/lib/python3/dist-packages"
         ],

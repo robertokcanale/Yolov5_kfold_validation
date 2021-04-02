@@ -8,4 +8,4 @@ THIS IS YOLOv5s., I NEED TO DO YOLO v5l too
 
 
 
-python3 test.py --weights best_kfold1.pt --img 416 --conf 0.001 --iou 0.65 --data data.yaml
+python3 test.py --weights best_kfold1.pt --img 416 --conf 0.001 --iou 0.65 --data data.yaml --batch-size 1
