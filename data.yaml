@@ -1,6 +1,6 @@
-train: kfold5_augmented/train/images
-val: kfold5_augmented/val/images
-test: kfold5_augmented/test/images
+train: kfold4_augmented/train/images
+val: kfold4_augmented/val/images
+test: kfold4_augmented/test/images
 
 
 nc: 3
