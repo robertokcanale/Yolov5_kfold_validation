@@ -1,7 +1,7 @@
-train: kfold4_augmented/train/images
-val: kfold4_augmented/val/images
-test: kfold4_augmented/test/images
+train: test_6classes/images
+val: test_6classes/images
+test: test_6classes/images
 
 
-nc: 3
-names: ['palm', 'thumb', 'fingers']
+nc: 6
+names: ['palm', 'thumb', 'index','middle', 'ring', 'pinkie' ]
