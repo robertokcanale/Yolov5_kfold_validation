@@ -1,7 +1,7 @@
-train: test_6classes/images
-val: test_6classes/images
-test: test_6classes/images
+train: test_3classes/images
+val: test_3classes/images
+test: test_3classes/images
 
 
-nc: 6
-names: ['palm', 'thumb', 'index','middle', 'ring', 'pinkie' ]
+nc: 63
+names: ['fingers', 'thumb', 'palm' ]
