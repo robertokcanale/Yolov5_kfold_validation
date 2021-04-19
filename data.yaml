@@ -3,4 +3,4 @@ val: test_6classes/images
 test: test_6classes/images
 
 nc: 6
-names: ['palm', 'thumb', 'index', 'middle', 'ring', 'pinkie']
+names: ['palm', 'thumb', 'finger', 'middle', 'ring', 'pinkie']
