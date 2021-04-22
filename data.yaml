@@ -1,6 +1,6 @@
-train: test_6classes/images
-val: test_6classes/images
-test: test_6classes/images
+train: k_fold2/train/images
+val: k_fold2/val/images
+test: k_fold2/val/images
 
 nc: 6
-names: ['palm', 'thumb', 'finger', 'middle', 'ring', 'pinkie']
+names: ['index', 'middle', 'palm', 'pinkie', 'ring', 'thumb']
