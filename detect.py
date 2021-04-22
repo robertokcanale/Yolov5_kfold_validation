@@ -103,7 +103,7 @@ def detect(save_img=False):
                         print("conf=", conf, "cls=", cls, "xyxy=",xyxy, "\n")
                         label = f'{names[int(cls)]} {conf:.2f}'
                         print(label)
-                        plot_one_box(xyxy, im0, label=label, color=colors[int(cls)], line_thickness=3) #I THINK THIS XYXY IS WHAT I NEED
+                        plot_one_box(xyxy, im0, label=label, color=colors[int(cls)], line_thickness=1) #I THINK THIS XYXY IS WHAT I NEED
 
             # Print time (inference + NMS)
             print(f'{s}Done. ({t2 - t1:.3f}s)')
