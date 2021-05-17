@@ -1,6 +1,6 @@
-train: k_fold1/train/images
-val: k_fold1/val/images
-test: k_fold1/val/images
+train: kfolds/k_fold1/train/images
+val: test_finetune/images
+test: test_finetune/images
 
 nc: 6
 names: ['index', 'middle', 'palm', 'pinkie', 'ring', 'thumb']
